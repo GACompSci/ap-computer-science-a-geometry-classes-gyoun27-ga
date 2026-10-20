@@ -11,12 +11,12 @@ public class Circle {
         return center;
     }
 
-    public int getRadius(){
-        return radius;
+    public double getRadius(){
+        return MathTools.round(radius,2);
     }
     
     public double getArea() {
-        double area = Math.PI * radius * radius;
+        double area = Math.PI * radius * radius ;
         return MathTools.round(area, 2);
 
     }
