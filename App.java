@@ -24,7 +24,7 @@ public class App {
 
         System.out.println("Random Integer 1-10: " + MathTools.randInt(1,10));
 
-        System.out.println("5.64578 rounded to three two decimals: " + MathTools.round(5.64578,2));
+        System.out.println("5.64578 rounded to two decimals: " + MathTools.round(5.64578,2));
 
         System.out.println("Distance between a and b: " + MathTools.distance(a,b));
 
@@ -35,7 +35,7 @@ public class App {
         Circle circle = new Circle(a, MathTools.randInt(1,10));
         System.out.println("Radius " + circle.getRadius());
         System.out.println("Area " + circle.getArea());
-        System.out.println("Point Center " + circle.getCenter());
+        System.out.println("Point Center: (" + circle.getCenter().getX() + ","+ circle.getCenter().getY() + ")");
 
         //Create a rectangle
         Rectangle rectangle = new Rectangle(b, MathTools.randInt(1,10), MathTools.randInt(1,10));
