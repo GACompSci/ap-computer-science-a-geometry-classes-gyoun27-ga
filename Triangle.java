@@ -15,7 +15,7 @@ public class Triangle {
         return MathTools.round(MathTools.distance(a, b), 2);
     }
 
-    public double area() {
+    public double getArea() {
         int x1 = a.getX();
         int x2 = b.getX();
         int x3 = c.getX();
@@ -24,7 +24,7 @@ public class Triangle {
         int y2 = b.getY();
         int y3 = c.getY();
 
-        double area = (0.5*(x1*(y2-y3) + x2*(y3-y1) + x3*(y3-y1)));
+        double area = (0.5*(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2)));
         return MathTools.round(area, 2);
     }
 }

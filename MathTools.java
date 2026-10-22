@@ -18,9 +18,7 @@ public class MathTools {
         double xDifference = a.getX() - b.getX();
         double yDifference = a.getY() - b.getY();
 
-        return Math.sqrt(
-         round(Math.pow(xDifference, 2) + Math.pow(yDifference, 2),10)
-        );
+        return Math.sqrt((Math.pow(xDifference, 2) + Math.pow(yDifference, 2)));
 
         
      }
