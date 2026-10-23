@@ -34,17 +34,17 @@ public class App {
 
         Circle circle = new Circle(a, MathTools.randInt(1,10));
         System.out.println("Radius " + circle.getRadius());
-        System.out.println("Area " + circle.getArea());
+        System.out.println("Circle Area " + circle.getArea());
         System.out.println("Point Center: (" + circle.getCenter().getX() + ","+ circle.getCenter().getY() + ")");
 
         //Create a rectangle
         Rectangle rectangle = new Rectangle(b, MathTools.randInt(1,10), MathTools.randInt(1,10));
-        System.out.println("Area " + rectangle.getArea());
+        System.out.println("Rectangle Area " + rectangle.getArea());
 
         //Create a Traingle
 
         Triangle triangle = new Triangle(a, b, c);
-        System.out.println("Area " + triangle.getArea());
+        System.out.println("Triangle Area " + triangle.getArea());
 
 
     }
